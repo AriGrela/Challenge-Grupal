@@ -1,19 +1,61 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-
-
-}
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
 
 :root {
 
-    --bright-organge: hsl(31, 77%, 52%);
+    --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
 }
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+margin:auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+width:1440px;
+height: 800px;
+}
+
+.columna1 {
+    background-color: var(--bright-orange);
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 3px;
+    width:300px;
+    height: 480px;
+}
+
+.columna2{
+    background-color: var(--dark-cyan);
+    padding-left: 3px;
+    width:300px;
+    height: 480px;
+
+}
+
+.columna3{
+    background-color: var(--very-dark-cyan);
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 3px;
+    width:300px;
+    height: 480px;
+}
+
+img {
+    padding: 40px;
+}
+
+
+
 
 
 footer {
